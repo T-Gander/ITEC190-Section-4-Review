@@ -53,8 +53,9 @@ figure img {
    border-style: solid;
    border-image: url("tb_frame.png") 60 stretch;
    width: 100%;
-   filter: sepia(80%);
    -webkit-backdrop-filter: sepia(80%);
+   filter: sepia(80%);
+   
 }
 figcaption {
    font-family: ‘Palatino Linotype’, Palatino, ‘Times New Roman’, serif;
