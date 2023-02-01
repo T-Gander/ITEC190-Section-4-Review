@@ -31,16 +31,54 @@ body {
 /* Main Styles */
 main {
    background-image: url("tb_back7.png");
+   background-size: cover;
+   box-shadow: inset -10px -10px 25px rgb(71, 71, 71);
+   box-shadow: inset 10px 10px 25px rgb(71, 71, 71);
+}
+
+main h1 {
+   text-shadow: 1px 1px 0px rgb(221, 221, 221);
+   text-shadow: 5px 5px 20px rgba(41, 41, 41, 0.9);
 }
 
 
 /* Figure Box Styles */
-
-
-
+figure {
+   margin: 10px auto;
+   width: 70%;
+}
+figure img {
+   display: block;
+   border-width: 25px;
+   border-style: solid;
+   border-image: url("tb_frame.png") 60 stretch;
+   width: 100%;
+   filter: sepia(80%);
+   -webkit-backdrop-filter: sepia(80%);
+}
+figcaption {
+   font-family: ‘Palatino Linotype’, Palatino, ‘Times New Roman’, serif;
+   font-style: italic;
+   padding: 10px 0px;
+   text-align: center;
+}
 /* Article Styles */
-
+article {
+   background-image: url("tb_back6.png");
+   background-position: bottom right;
+   background-size: 15%;
+   background-repeat: no-repeat;
+   border-style: double;
+   border-width: 8px;
+   border-color: rgb(147, 116, 68);
+   border-left-width: 0;
+   border-top-width: 0;
+   border-bottom-right-radius: 80px;
+   box-shadow: inset -10px -10px 25px rgba(184, 154, 112, 0.7);
+}
 
 
 /* Footer Styles */
-
+footer {
+   background-image: linear-gradient(325deg, rgba(184, 154, 112, 0.7) 10%, rgb(40, 33, 23) 60%);
+}
